@@ -32,7 +32,7 @@ def main():
     
     print("hello world")
 
-    !python /content/drive/MyDrive/yolov5/detect.py --weights /content/drive/MyDrive/yolov5/runs/train/exp13/weights/best.pt --img 507 --conf 0.25 --source /content/drive/MyDrive/image_text_extraction_project/pdf_images --hide-labels --save-crop --save-txt
+    python /content/drive/MyDrive/yolov5/detect.py --weights /content/drive/MyDrive/yolov5/runs/train/exp13/weights/best.pt --img 507 --conf 0.25 --source /content/drive/MyDrive/image_text_extraction_project/pdf_images --hide-labels --save-crop --save-txt
 
     imaged_path = '/content/drive/MyDrive/yolov5/runs/detect/exp7/0196.png'
     labels_path = '/content/drive/MyDrive/yolov5/runs/detect/exp7/labels/0196.txt'

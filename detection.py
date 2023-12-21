@@ -1,6 +1,6 @@
 import subprocess
 import os
-from models.common import DetectMultiBackend
+
 
 def perform_object_detection(weights_path, img_size, confidence, source_path, hide_labels=True, save_crop=True, save_txt=True):
     command = f"python {os.path.join(os.getcwd(), 'detect.py')} \
